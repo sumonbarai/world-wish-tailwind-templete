@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png" />
+    <title>World Wish</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="p-6 h-[100vh]">
+      <!-- hero area -->
+      <div
+        class="flex min-h-full justify-center items-center flex-col relative bg-no-repeat bg-cover bg-center rounded-lg"
+        style="
+          background-image: linear-gradient(#000000b9, #000000b9),
+            url('./assets/bg.jpg');
+        "
+      >
+        <div class="w-full absolute top-0 left-0 p-8">
+          <div class="flex justify-between items-center">
+            <div class="w-60">
+              <a href="index.html" class="w-full"
+                ><img src="./assets/logo.png" alt="logo"
+              /></a>
+            </div>
+            <div>
+              <a
+                class="hover:text-success px-4 py-2 m-2 rounded-lg uppercase text-white"
+                href="price.html"
+                >pricing</a
+              >
+              <a
+                class="hover:text-success px-4 py-2 m-2 rounded-lg uppercase text-success"
+                href="about.html"
+                >about</a
+              >
+              <a
+                class="px-4 py-2 m-2 rounded-lg uppercase text-white bg-success"
+                href="login.html"
+              >
+                login
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-white">
+          <div class="max-w-5xl">
+            <h1 class="text-5xl font-bold">
+              You travel the world. WorldWise keeps track of your adventures.
+            </h1>
+            <p class="p-6">
+              A world map that tracks your footsteps into every city you can
+              think of. Never forget your wonderful experiences, and show your
+              friends how you have wandered the world.
+            </p>
+            <button class="btn btn-success uppercase mt-3">
+              start tracking now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png" />
+    <title>World Wish</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="p-6 h-[100vh]">
+      <!-- hero area -->
+      <div
+        class="flex min-h-full justify-center items-center relative bg-gray-800 rounded-lg"
+      >
+        <div class="w-full absolute top-0 left-0 p-8">
+          <div class="flex justify-between items-center">
+            <div class="w-60">
+              <a href="index.html" class="w-full"
+                ><img src="./assets/logo.png" alt="logo"
+              /></a>
+            </div>
+            <div>
+              <a
+                class="hover:text-success px-4 py-2 m-2 rounded-lg uppercase text-white"
+                href="price.html"
+                >pricing</a
+              >
+              <a
+                class="hover:text-success px-4 py-2 m-2 rounded-lg uppercase text-success"
+                href="about.html"
+                >about</a
+              >
+              <a
+                class="px-4 py-2 m-2 rounded-lg uppercase text-white bg-success"
+                href="login.html"
+              >
+                login
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="bg-[#42484D] p-6 rounded-lg">
+            <form class="form-control w-96">
+              <div>
+                <label class="label">
+                  <span class="text-white text-lg">Email Address</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="jack@example.com"
+                  class="input input-sm input-bordered w-full"
+                />
+              </div>
+              <div>
+                <label class="label">
+                  <span class="text-white text-lg">Password</span>
+                </label>
+                <input
+                  type="password"
+                  placeholder="password here"
+                  class="input input-sm input-bordered w-full"
+                />
+              </div>
+              <button class="bg-success p-1 w-32 rounded-lg my-4 capitalize">
+                login
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
